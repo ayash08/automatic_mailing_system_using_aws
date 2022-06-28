@@ -1,0 +1,122 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+  body{
+    background:url(pexels-lukas-616401.jpg) no-repeat center fixed;  
+    background-size: cover;  
+    /* background-repeat: no-repeat; */
+    /* background-position: center center; */
+    /* background-attachment: fixed; */
+}  
+
+.container{
+    /* border:5px solid red; */
+    position: absolute;
+    top:25%;
+    left:40%;
+}
+
+h2{
+
+    margin-bottom: 20px;
+    border-bottom: 2px solid red;
+    text-align: center;
+    padding:3px;
+    font-size: 40px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.box{
+    /* border:2px solid red; */
+    /* margin: 12px 0px; */
+    width: 100%;
+    margin:30px 0px;
+    /* u can also either give margin here or to .box input */
+
+}
+
+.box input{
+    /*giving width only to box does not work uhave to set a width for input also*/
+    width:75%;   
+    border: none;
+    outline: none;
+    font-size: 20px;        
+    /* margin: 2px 0px; */
+    padding: 2px 12px;
+    background: none;
+    border-bottom: 2px solid rgb(14, 12, 12);
+}
+
+.btn{
+    margin: 37px auto;
+    display: block;
+    cursor: pointer; 
+    width:80%;
+    border-radius: 13px;
+    padding:5px 0px;
+    font-weight: bold;
+    background: none;
+    outline:none;
+    border: 2px solid black;
+}
+.btn:hover{
+    background:white;
+    color:red;
+    margin: 40px auto;
+    display: block;
+    cursor: pointer; 
+    width:80%;
+    border-radius: 10px;
+    padding:4px 0px;
+    font-weight: bold;
+    /* background: none; */
+    outline:none;
+    border: 2px solid black;
+}
+
+.box span{
+    text-align : center;
+    /* border: 2px solid red; */
+    width:20px;
+    font-size: 15px;
+    padding:2px 4px;
+
+}
+
+a,.navbtn{
+    font-family: 'Poppins', sans-serif;
+    /* font-weight: 500; */
+    font-size: 15px;
+    color:black;
+    text-decoration: none;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:30px 10%;
+}
+button{
+    padding:5px 20px;
+    background: none;
+    outline: none;
+    border: 2px solid black;
+    border-radius: 13px;
+    font-weight: bold;
+    cursor: pointer;
+    
+}
+
+button:hover{
+    background:white;
+    color:red;
+    
+
+}
+
+
+
+

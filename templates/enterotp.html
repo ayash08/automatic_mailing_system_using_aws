@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=GFS+Neohellenic&display=swap" rel="stylesheet"> -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined"
+      rel="stylesheet">
+      <link rel="stylesheet" href="{{ url_for('static', filename= 'css/style1.css') }}">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h4></h4>
+        </div>
+        <form  action = "/">
+        <a href="#"><button class="navbtn">signup</button></a>
+        </form>
+    </header>
+    <form method="post" action="/otpcheck">
+    <div class="container">
+        <h2>Enter OTP</h2>
+        <div class="box">
+            <span class="material-icons-outlined">
+                person
+            </span>
+            <input type="text" name="otp" id="otp"  placeholder="OTP">
+        </div>
+        
+        <button class="btn">Enter</button></form>
+
+      
+    </div>
+    
+</body>
+</html>
